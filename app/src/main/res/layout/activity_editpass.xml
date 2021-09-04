@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editpass"
+    android:orientation="vertical"
+    android:background="@drawable/edpback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded"
+        android:layout_alignParentBottom="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE PASSWORD"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:textStyle="bold"
+        android:textColor="#8A18AE"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="20dp"
+        android:textColor="#8A18AE"/>
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="null"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/usern"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="20dp"
+        android:textColor="#8A18AE"/>
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="null"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/passw" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/upd"
+            android:background="#8A18AE"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/del"
+            android:background="#8A18AE"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

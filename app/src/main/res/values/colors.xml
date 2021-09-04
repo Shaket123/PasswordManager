@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="spladhbg">#C62285</color>
+    <color name="splashbtn">#FEF9EB</color>
+    <color name="nak">#FFB671</color>
+    <color name="b1">#FF3E43</color>
+    <color name="reb">#FFF8B7</color>
+</resources>
